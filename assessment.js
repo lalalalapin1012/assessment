@@ -15,7 +15,7 @@ assessmentButton.onclick = () => {
   const result = assessment(userName);
 
   const anchor = document.createElement('a');
-  anchor.setAttribute('href','https://twitter.com/intent/tweet?button_hashtag=' + encodeURIComponent('あなたのいいところ診断') + '&ref_src=twsrc%5Etfw');
+  anchor.setAttribute('href','https://twitter.com/intent/tweet?button_hashtag=' + encodeURIComponent('あなたのい いところ診断') + '&ref_src=twsrc%5Etfw');
   anchor.className = 'twitter-hashtag-button';
   anchor.setAttribute('data-size','large');
   anchor.setAttribute('data-text',result);
